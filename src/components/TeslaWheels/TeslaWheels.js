@@ -31,11 +31,10 @@ const LabelLists = props => {
 
 const TeslaWheels = props => (
   <div className="tesla-wheels__component">
-    <p className="tesla-wheels__title">
-      <div className="tesla-wheels__container cf">
-        <LabelLists wheels={props} />
-      </div>
-    </p>
+    <p className="tesla-wheels__title">Wheels</p>
+    <div className="tesla-wheels__container cf">
+      <LabelLists wheels={props} />
+    </div>
   </div>
 );
 
